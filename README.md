@@ -1,6 +1,6 @@
 # XML
 
-[Web](https://www.w3schools.com/xml/xml_whatis.asp)
+[Link de w3schools](https://www.w3schools.com/xml/xml_whatis.asp)
 
 ---
 
@@ -126,7 +126,7 @@ XML, o *Extensible Markup Language*, es un lenguaje que permite almacenar datos 
 
 # Python
 
-[Web](https://www.w3schools.com/python/default.asp)
+[Link de w3schools](https://www.w3schools.com/python/default.asp)
 
 ---
 
