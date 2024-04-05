@@ -142,7 +142,15 @@ Python es un lenguaje de programacion utilizado para crear todo tipo de programa
 - **Operaciones aritmeticas:** No solo es posible almacenar numeros dentro de variables, sino que tambien se pueden utilizar para ejecutar operaciones matematicas. 
 - **Listas y diccionarios:** Al definir una variable como `[]` o `{}`, es posible crear una lista de valores o un diccionario con multiples datos por valor, respectivamente. Ejemplos: `Numeros1al10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` | `EstudiantesProgramacion = [{'nombre' : 'Carlos', 'edad' : 22, 'cursos': ['Python', 'Django', 'JavaScript']}, {'nombre' : 'Mariano', 'edad' : 20, 'cursos': ['C', 'C++', 'Django']}]`
 - **Lectura y escritura de archivos:** Para manipular archivos editables, primero es necesario abrir el archivo deseado con `open(?, archivo.xml)`, remplazando **?** con una de las siguientes opciones:
-    - .
+    - *r*: Lee el archivo especificado, pero **devuelve un error si este archivo no existe**.
+    - *a*: Abre el archivo especificado y permite escribir lineas a partir del final del documento existente. **Devuelve un error si este archivo no existe**.
+    - *w*: Abre el archivo especificado y permite escribir lineas, sobrescribiendo todo el documento. **Si el archivo no existe, lo crea**.
+    - *x*: Crea el archivo con el nombre especificado, pero **devuelve un error si este archivo ya existe**.
+Una vez creado o abierto el archivo, es posible cambiar su contenido por otro de nuestro eleccion o añadir contenido nuevo junto al que ya existe:
+    - *read()*: Lee todo el documento. Dentro del `()`, se puede definir el numero de caracteres que el codigo debe leer en vez de todo el documento.
+    - *readline()*: Lee las lineas del documento en orden. En su primera ejecucion, devolvera la primera linea; en la segunda ejecucion, devolvera la segunda; etc.
+    - *readlines()*: Lee todas las lineas del documento y las añade a una lista.
+    - *write()*: .
 
 ## Ejemplo de Documento Python con minidom
 
