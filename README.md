@@ -136,12 +136,13 @@ Python es un lenguaje de programacion utilizado para crear todo tipo de programa
 
 ![fotoPython](https://cdn01.zoomit.ir/2021/1/python-programming.jpg)
 
-## Elementos basicos
+## Elementos y funciones basicas
 
 - **Bucles:** Mediante las funciones `for` y `where`, es posible crear bucles que recorran un objeto en especifico o de acuerdo a que una condicion se continue cumpliendo, respectivamente. Ejemplos: `for entrada in llista:` | `where intentos > 0:`
 - **Operaciones aritmeticas:** No solo es posible almacenar numeros dentro de variables, sino que tambien se pueden utilizar para ejecutar operaciones matematicas. 
 - **Listas y diccionarios:** Al definir una variable como `[]` o `{}`, es posible crear una lista de valores o un diccionario con multiples datos por valor, respectivamente. Ejemplos: `Numeros1al10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` | `EstudiantesProgramacion = [{'nombre' : 'Carlos', 'edad' : 22, 'cursos': ['Python', 'Django', 'JavaScript']}, {'nombre' : 'Mariano', 'edad' : 20, 'cursos': ['C', 'C++', 'Django']}]`
-- **Lectura y escritura de archivos:** Para manipular archivos editables, primero es necesario abrir el archivo deseado con `open()`.
+- **Lectura y escritura de archivos:** Para manipular archivos editables, primero es necesario abrir el archivo deseado con `open(?, archivo.xml)`, remplazando **?** con una de las siguientes opciones:
+    - .
 
 ## Ejemplo de Documento Python con minidom
 
