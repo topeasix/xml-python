@@ -138,10 +138,10 @@ Python es un lenguaje de programacion utilizado para crear todo tipo de programa
 
 ## Elementos y funciones basicas
 
-- **Bucles:** Mediante las funciones `for` y `where`, es posible crear bucles que recorran un objeto en especifico o de acuerdo a que una condicion se continue cumpliendo, respectivamente. Ejemplos: `for entrada in llista:` | `where intentos > 0:`
-- **Operaciones aritmeticas:** No solo es posible almacenar numeros dentro de variables, sino que tambien se pueden utilizar para ejecutar operaciones matematicas. 
-- **Listas y diccionarios:** Al definir una variable como `[]` o `{}`, es posible crear una lista de valores o un diccionario con multiples datos por valor, respectivamente. Ejemplos: `Numeros1al10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` | `EstudiantesProgramacion = [{'nombre' : 'Carlos', 'edad' : 22, 'cursos': ['Python', 'Django', 'JavaScript']}, {'nombre' : 'Mariano', 'edad' : 20, 'cursos': ['C', 'C++', 'Django']}]`
-- **Lectura y escritura de archivos:** Para manipular archivos editables, primero es necesario abrir el archivo deseado con `open(?, archivo.xml)`, remplazando **?** con una de las siguientes opciones:
+- **Bucles:** Mediante las funciones `for` y `where`, es posible crear bucles que recorran un objeto en especifico o de acuerdo a que una condicion se continue cumpliendo, respectivamente. Ejemplos: for - `for entrada in llista:` | where - `where intentos > 0:`
+- **Operaciones aritmeticas:** No solo es posible almacenar numeros dentro de variables, sino que tambien se pueden utilizar para ejecutar operaciones matematicas, tales como sumas `(50 + 295)`, restas `(455 - numero)`, multiplicaciones `(20 * 3)`, divisiones `(numero / 30)` o porcentajes `(1000 % 50)`. 
+- **Listas y diccionarios:** Al definir una variable como `[]` o `{}`, es posible crear una lista de valores o un diccionario con multiples datos por valor, respectivamente. Ejemplos: Lista - `Numeros1al10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` | Diccionario - `EstudiantesProgramacion = [{'nombre' : 'Carlos', 'edad' : 22, 'cursos': ['Python', 'Django', 'JavaScript']}, {'nombre' : 'Mariano', 'edad' : 20, 'cursos': ['C', 'C++', 'Django']}]`
+- **Lectura y escritura de archivos:** Para manipular archivos editables, primero es necesario abrir el archivo deseado con `open(?, archivo.extension)`, remplazando **?** con una de las siguientes opciones:
     - *r*: Lee el archivo especificado, pero **devuelve un error si este archivo no existe**.
     - *a*: Abre el archivo especificado y permite escribir lineas a partir del final del documento existente. **Devuelve un error si este archivo no existe**.
     - *w*: Abre el archivo especificado y permite escribir lineas, sobrescribiendo todo el documento. **Si el archivo no existe, lo crea**.
@@ -149,8 +149,8 @@ Python es un lenguaje de programacion utilizado para crear todo tipo de programa
 Una vez creado o abierto el archivo, es posible cambiar su contenido por otro de nuestro eleccion o añadir contenido nuevo junto al que ya existe:
     - *read()*: Lee todo el documento. Dentro del `()`, se puede definir el numero de caracteres que el codigo debe leer en vez de todo el documento.
     - *readline()*: Lee las lineas del documento en orden. En su primera ejecucion, devolvera la primera linea; en la segunda ejecucion, devolvera la segunda; etc.
-    - *readlines()*: Lee todas las lineas del documento y las añade a una lista.
-    - *write()*: .
+    - *readlines()*: Lee todas las lineas del documento y las añade a una *lista*.
+    - *write()*: Añade una nueva linea con contenido especificado dentro del `()`. La primera linea se encontrara al final del documento o al principio del documento sobrescribido, dependiendo tanto de la opcion que se haya utilizado previamente como del archivo en cuestion.
 
 ## Ejemplo de Documento Python con minidom
 
